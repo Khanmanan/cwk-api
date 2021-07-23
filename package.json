@@ -1,6 +1,6 @@
 {
-  "name": "cwk-api.js",
-  "version": "0.0.1",
+  "name": "cwk-api",
+  "version": "0.0.2",
   "description": "a fun api for js made by cwkhan",
   "main": "index.js",
   "scripts": {
