@@ -1,0 +1,19 @@
+{
+  "name": "cwk-api.js",
+  "version": "0.0.1",
+  "description": "a fun api for js made by cwkhan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cwkhan",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khanmanan/cwk-api.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "node-fetch": "^2.6.1"
+  }
+}
