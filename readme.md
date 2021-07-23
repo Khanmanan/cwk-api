@@ -2,8 +2,7 @@
 
  ### meme Get random meme form reddit 
 ```js
-const cwk = require('cwk-api
-js') 
+const cwk = require('cwk-api') 
 cwk.meme(message, {
 })
 ```
