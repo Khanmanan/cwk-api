@@ -1,5 +1,5 @@
-const fetch = require ("node-fetch")
-	const MessageEmbed = require ("discord.js")
+const Fetch = require ("node-fetch")
+	const { MessageEmbed } = require ("discord.js")
 async function meme(message, options = {}){
 	
 	const Reds = [

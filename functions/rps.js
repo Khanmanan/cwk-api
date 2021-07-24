@@ -42,3 +42,4 @@ async function rps(message, options = {}){
         }
 
     }
+module.exports = meme;

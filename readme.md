@@ -21,6 +21,20 @@ const cwk = require('cwk-api')
 cwk.rps(message, {
 })
 ```
+
+# more stuff
+
+### EMBED
+
+```js
+
+const cwk = require("cwk-api")
+cwk.embed(message,{
+	});
+	
+	```
+
+
 # Join suserver server for more updates and suggestion . if u got bug  _-  
 
 [support](https://discord.gg/cwkhan)
