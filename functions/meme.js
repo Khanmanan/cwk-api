@@ -1,5 +1,8 @@
-const Fetch = require ("node-fetch")
-	const { MessageEmbed } = require ("discord.js")
+const Discord = require("discord.js");
+const { MessageEmbed } = require("discord.js");
+const Color = `BLUE`;
+const Fetch = require("node-fetch"); //Install Node-fetch - npm i node-fetch
+
 async function meme(message, options = {}){
 	
 	const Reds = [
@@ -21,7 +24,7 @@ async function meme(message, options = {}){
         const data = json[0].data.children[0].data;
 
         const Embed = new MessageEmbed()
-            .setColor(Color)
+            .setColor("BLUE")
             .setURL(`https://reddit.com${data.permalink}`)
             .setTitle(data.title)
             .setDescription(`Author : ${data.author}`)

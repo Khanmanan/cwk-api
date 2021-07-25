@@ -66,20 +66,10 @@ async function embed(message, options = {}){
 
             // Getting URL
 
-            if (title.first().content !== 'skip' && title.first().content !== 'cancel') {
+            
+                
 
-                message.channel.send("So, Do you want your embed to have any masked link on title?, say `no` if you do not have set title");
-
-                let URL = await message.channel.awaitMessages(filter, options);
-
-                if (URL.first().content == 'cancel') return message.channel.send('Embed Generator Cancelled.')
-
-                if (URL.first().content !== 'skip' && URL.first().content !== 'cancel') embed.setURL(URL.first().content);
-
-            }
-
-    
-
+                
             //===============================================================================================
 
             // Getting Color
@@ -131,4 +121,4 @@ async function embed(message, options = {}){
         }
 
     }
-module.exports = meme;
+module.exports = embed;
