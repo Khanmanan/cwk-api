@@ -1,6 +1,6 @@
-# My first Npm package more coming soon
+<h1> My first Npm package more coming soon *beta 😙 </h1>
 
- ### meme Get random meme form reddit 
+<h1> meme Get random meme form reddit </h1>
  
 ```js
 const cwk = require('cwk-api') 
@@ -11,7 +11,7 @@ cwk.meme(message, {
 
 ![meme](https://media.discordapp.net/attachments/864948519256850503/868015580366635008/Screenshot_2021-07-23-11-53-46-61_5a415ff834f6bc153619606941c55eb5.jpg)
 
-### EMBED
+<h1>  EMBED </h1>
 
 ```js
 
