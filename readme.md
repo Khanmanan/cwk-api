@@ -15,14 +15,14 @@ cwk.meme(message, {
 
 <h1>  EMBED </h1>
 
-
+```js
 
 const cwk = require("cwk-api")
 // message event
 cwk.embed(message,{
 	});
 	
-	
+	```
 <h1>  tictactoe </h1>
 
 ```js
