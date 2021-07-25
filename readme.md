@@ -21,9 +21,8 @@ const cwk = require("cwk-api")
 // message event
 cwk.embed(message,{
 	});
-	
-	```
-	![Embed](https://media.discordapp.net/attachments/835568597438693446/868760153472790538/Screenshot_2021-07-25-13-12-28-67_5a415ff834f6bc153619606941c55eb5.jpg)
+```
+![Embed](https://media.discordapp.net/attachments/835568597438693446/868760153472790538/Screenshot_2021-07-25-13-12-28-67_5a415ff834f6bc153619606941c55eb5.jpg)
 	
 	
 <h1>  tictactoe </h1>
